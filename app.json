@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/TechnoMindz/AutoDeleteRobot",
-    "repository": "https://github.com/TechnoMindz/AutoDeleteRobot",
+    "website": "https://github.com/RaviTechnoMindz/AutoFilter",
+    "repository": "https://github.com/RaviTechnoMindz/AutoFilter",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -135,7 +135,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
