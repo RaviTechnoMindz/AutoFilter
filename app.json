@@ -21,22 +21,22 @@
         "BOT_TOKEN": {
             "description": "Your bot token.",
             "required": true,
-            "value": "enteryourbottoken123456789"
+            "value": "5538832178:AAFE9RoS5zzWPNJAmAcC6uK-8aM9_I9LMCw"
         },
         "BOT_USERNAME": {
             "description": "enter Bot Username Without @",
             "required": true,
-            "value": "TmTesterbot"
+            "value": "TmMovieFinder_Bot"
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
             "required": true,
-            "value": "170####"
+            "value": "17050357"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
             "required": true,
-            "value": "29fd19124#################357a7a2f"
+            "value": "29fd19124a1f32e9150625e2357a7a2f"
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
@@ -51,12 +51,12 @@
         "PICS": {
             "description": "Add some telegraph link of pictures .",
             "required": false,
-            "value": "https://telegra.ph/file/a2a1dac049b50dc7f8dfb.jpg https://telegra.ph/file/775ee57c7a7550ad611ed.jpg"
+            "value": "https://telegra.ph/file/bff4fe1f0907b7a7290f0.mp4"
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true,
-            "value": "-100xxxxxxxxxx"
+            "value": "-1001779986786"
         },
         "SUPPORT_CHAT": {
             "description": "Username of a Support Group / ADMIN. ( Should be username without @ and not ID)",
@@ -70,7 +70,7 @@
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
             "required": false,
-            "value": "-100xxxxxxxxxx"
+            "value": "-1001667110031"
         },   
         "USE_CAPTION_FILTER": {
             "description": "Whether bot should use captions to improve search results. (True False)",
@@ -82,15 +82,10 @@
             "required": false,
             "value": "enteranycaption"
         },
-        "UPSTREAM_REPO": {
-            "description": "Don't Change Or It Won't Work",
-            "required": true,
-            "value": "youreditedgithublink"
-        },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
             "required": true,
-            "value": "mongodblink"
+            "value": "mongodb+srv://elsaweds:ravi@cluster0.ta8eozk.mongodb.net/?retryWrites=true&w=majority"
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
@@ -107,11 +102,6 @@
             "value": "300",
             "required": false
         },
-        "DELETE_TIME": {
-            "description": "In How Many Second You want The Bot to delete The Message - Ravinandan",
-            "required": true,
-            "value": "300"
-        },
         "IMDB": {
             "description": "Imdb, the view of information when making True/False ",
             "required": true,
@@ -126,7 +116,7 @@
             "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
             "required": true,
             "value": "True"
-        }
+         }
     },
     "addons": [],
     "buildpacks": [{
