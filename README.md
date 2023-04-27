@@ -1,1 +1,1 @@
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/0XlKxg?referralCode=dsdSeQ)
+https://heroku.com/deploy?template=https://github.com/RaviTechnoMindz/AutoFilter
