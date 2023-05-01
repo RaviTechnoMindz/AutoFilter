@@ -41,12 +41,12 @@
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "required": false,
-            "value": "-100xxxxxxxxxx"
+            "value": "-1001650104536"
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
             "required": true,
-            "value": "10896xxxxx"
+            "value": "1089622824"
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
@@ -80,7 +80,7 @@
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
             "required": false,
-            "value": "enteranycaption"
+            "value": "@TmMainChannel"
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
