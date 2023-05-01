@@ -384,12 +384,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/TmMainChannel'),
-                          InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓', url='https://t.me/TechnoMindzChat')
+                          InlineKeyboardButton('⭕𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⭕', url='https://t.me/TmMainChannel'),
+                          InlineKeyboardButton('⭕𝐒𝐔𝐏𝐏𝐎𝐑𝐓⭕', url='https://t.me/TechnoMindzChat')
                        ],[
-                          InlineKeyboardButton("𝑅𝑒𝓆𝓊𝑒𝓈𝓉 𝒶𝑔𝒶𝒾𝓃", url="https://t.me/technomoviescollection")
+                          InlineKeyboardButton("⭕𝑅𝑒𝓆𝓊𝑒𝓈𝓉 𝒶𝑔𝒶𝒾𝓃⭕", url="https://t.me/technomoviescollection")
                        ],[
-                          InlineKeyboardButton("𝕆𝕨𝕟𝕖𝕣", url="t.me/technomindzyt")
+                          InlineKeyboardButton("❤️ 𝕆𝕨𝕟𝕖𝕣 💝", url="t.me/technomindzyt")
                          ]
                         ]
                     )
@@ -794,7 +794,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"💫[{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"♨️[{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -807,7 +807,7 @@ async def auto_filter(client, msg, spoll=False):
                     callback_data=f'{pre}#{file.file_id}',
                 ),
                 InlineKeyboardButton(
-                    text=f"💫[{get_size(file.file_size)}]",
+                    text=f"♨️[{get_size(file.file_size)}]",
                     callback_data=f'{pre}#{file.file_id}',
                 ),
             ]
@@ -872,7 +872,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hi 👋 {message.from_user.mention}</b>\n\n<b>💖 <STRONG>{search}</STRONG> 💝\n𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 ♪♪\n✨@TechnoMoviesCollection\n\n⚙️ Nᴏᴛᴇ:→𝗧𝗵𝗶𝘀 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗪𝗶𝗹𝗹 𝗕𝗲 𝗔𝘂𝘁𝗼-𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗔𝗳𝘁𝗲𝗿 5 𝗠𝗶𝗻𝘂𝘁𝗲 𝗧𝗼 𝗔𝘃𝗼𝗶𝗱 𝗖𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 𝗜𝘀𝘀𝘂𝗲𝘀.\n\n➥ 𝗝𝗼𝗶𝗻 ➼ 🔗@TmMainChannel</b> "
+        cap = f"<b>🗃️ <STRONG>{search}</STRONG> 💝\n𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 ♪♪\n✨@TechnoMoviesCollection\n\n⚙️ Nᴏᴛᴇ:→𝗧𝗵𝗶𝘀 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗪𝗶𝗹𝗹 𝗕𝗲 𝗔𝘂𝘁𝗼-𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗔𝗳𝘁𝗲𝗿 5 𝗠𝗶𝗻𝘂𝘁𝗲 𝗧𝗼 𝗔𝘃𝗼𝗶𝗱 𝗖𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 𝗜𝘀𝘀𝘂𝗲𝘀.\n\n➥ 𝗝𝗼𝗶𝗻 ➼ 🔗@TmMainChannel</b> "
     if imdb and imdb.get('poster'):
         try:
             fmsg = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],#Imdb Poster Code
