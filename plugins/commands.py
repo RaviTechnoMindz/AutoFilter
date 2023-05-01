@@ -162,15 +162,19 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
+                    reply_markup=InlineKeyboardMarkup(
+                        [
+                         [
+                          InlineKeyboardButton('⭕𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥⭕', url='https://t.me/TmMainChannel'),
+                          InlineKeyboardButton('⭕𝐒𝐔𝐏𝐏𝐎𝐑𝐓⭕', url='https://t.me/TechnoMindzChat')
+                       ],[
+                          InlineKeyboardButton("⭕ 𝑅𝑒𝓆𝓊𝑒𝓈𝓉 𝒶𝑔𝒶𝒾𝓃 ⭕", url="https://t.me/technomoviescollection")
+                       ],[
+                          InlineKeyboardButton("❤️ 𝕆𝕨𝕟𝕖𝕣 💝", url="t.me/technomindzyt")
+                         ]
+                        ]
                     )
-                await asyncio.sleep(18000)#Time Limit Which Deletes Files Which Sent by bot default 2 hrs
-                await ravi.delete()
-                await client.send_video(
-                            chat_id=message.chat.id,
-                            video="https://telegra.ph/file/7c13fa72f06ba3ab61371.mp4",
-                            caption=f"⚙️ <strong>Oh Oh The File Is Deleted</strong> 🗑️\n\nDidn't Forward To Anyone ?\n\nNo Problem Just Ask Again Here @TechnoMoviesCollection\n\n@TmMainChannel",
-                            reply_to_message_id=message.id
-                        )
+                )
                 
             except FloodWait as e:
                 await asyncio.sleep(e.x)
@@ -183,12 +187,12 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/TmMainChannel'),
-                          InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓', url='https://t.me/TechnoMindzChat')
+                          InlineKeyboardButton('⭕𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥⭕', url='https://t.me/TmMainChannel'),
+                          InlineKeyboardButton('⭕𝐒𝐔𝐏𝐏𝐎𝐑𝐓⭕', url='https://t.me/TechnoMindzChat')
                        ],[
-                          InlineKeyboardButton("𝑅𝑒𝓆𝓊𝑒𝓈𝓉 𝒶𝑔𝒶𝒾𝓃", url="https://t.me/technomoviescollection")
+                          InlineKeyboardButton("⭕ 𝑅𝑒𝓆𝓊𝑒𝓈𝓉 𝒶𝑔𝒶𝒾𝓃 ⭕", url="https://t.me/technomoviescollection")
                        ],[
-                          InlineKeyboardButton("𝕆𝕨𝕟𝕖𝕣", url="t.me/technomindzyt")
+                          InlineKeyboardButton("❤️ 𝕆𝕨𝕟𝕖𝕣 💝", url="t.me/technomindzyt")
                          ]
                         ]
                     )
@@ -290,12 +294,12 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/TmMainChannel'),
-                          InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓', url='https://t.me/TechnoMindzChat')
+                          InlineKeyboardButton('⭕𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥⭕', url='https://t.me/TmMainChannel'),
+                          InlineKeyboardButton('⭕𝐒𝐔𝐏𝐏𝐎𝐑𝐓⭕', url='https://t.me/TechnoMindzChat')
                        ],[
-                          InlineKeyboardButton("𝑅𝑒𝓆𝓊𝑒𝓈𝓉 𝒶𝑔𝒶𝒾𝓃", url="https://t.me/technomoviescollection")
+                          InlineKeyboardButton("⭕ 𝑅𝑒𝓆𝓊𝑒𝓈𝓉 𝒶𝑔𝒶𝒾𝓃 ⭕", url="https://t.me/technomoviescollection")
                        ],[
-                          InlineKeyboardButton("𝕆𝕨𝕟𝕖𝕣", url="t.me/technomindzyt")
+                          InlineKeyboardButton("❤️ 𝕆𝕨𝕟𝕖𝕣 💝", url="t.me/technomindzyt")
                          ]
                         ]
                     )
