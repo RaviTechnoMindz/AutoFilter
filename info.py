@@ -42,7 +42,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TechnoMindzChat')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), True)
-CUSTOM_FILE_CAPTION = "📁 ➜ [@TmMainChannel] <code>{file_name}</code>\n\n🗃️ <b>File Size : </b>{file_size}\n\n𝕊𝕌𝔹𝕊ℂℝ𝕀𝔹𝔼 𝕆𝕌ℝ 𝕐𝕆𝕌𝕋𝕌𝔹𝔼 ℂℍ𝔸ℕℕ𝔼𝕃 🥰 👇\nhttps://www.youtube.com/c/TechnoMindz\n\n✨Need To Chat Join @TechnoMindzChat\n\n⚠️This Message Will Be Deleted After 5 Hours Forward And Keep it to someone else Or Forward To your Saved Messages\n\n♥️ 𝗧𝗲𝗮𝗺 ➜ @TmMainChannel\n\n✯ ━━━━━━━ ✧ ━━━━━━━ ✯"
+CUSTOM_FILE_CAPTION = evviron.get("CUSTOM_FILE_CAPTION", CUSTOM_FILECAPTION)
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
